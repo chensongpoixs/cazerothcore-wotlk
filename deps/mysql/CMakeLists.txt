@@ -9,7 +9,7 @@
 # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-set(MYSQL_LIBRARY  "D:/dep/w_dep/mysql/lib/x64")
+set(MYSQL_LIBRARY  "D:/dep/w_dep/mysql/lib/x64/libmysql.lib")
     
 set(MYSQL_INCLUDE_DIR      "D:/dep/w_dep/mysql/include")
 
