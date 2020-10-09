@@ -9,9 +9,9 @@
 # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
 # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-if (NOT MYSQL_FOUND)
-  message(FATAL_ERROR "MySQL wasn't found on your system but it's required to build the servers!")
-endif()
+set(MYSQL_LIBRARY  "D:/dep/w_dep/mysql/lib/x64")
+    
+set(MYSQL_INCLUDE_DIR      "D:/dep/w_dep/mysql/include")
 
 add_library(mysql STATIC IMPORTED GLOBAL)
  
